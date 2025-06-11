@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM sans";
+}
+
+section {
+  display: flex;
+}
+section .text-area {
+  max-width: 700px;
+  padding: 173px 111px;
+  background-color: black;
+}
+section .text-area h2 {
+  color: white;
+  font-size: 50px;
+  width: 387px;
+  line-height: 48px;
+  letter-spacing: 4.17px;
+}
+section .text-area .para {
+  color: white;
+  opacity: 60%;
+  margin-top: 21px;
+  font-size: 15px;
+  line-height: 25px;
+}
+section .text-area .link-content {
+  display: flex;
+  margin-top: 48px;
+  gap: 18px;
+}
+section .text-area .link-content .link {
+  color: white;
+}
+section .back-img {
+  height: 703px;
+  width: 1205px;
+}/*# sourceMappingURL=main.css.map */
