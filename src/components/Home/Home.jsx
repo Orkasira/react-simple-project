@@ -9,6 +9,10 @@ import img1 from "../../assets/img1.png";
 import img2 from "../../assets/img2.png";
 import img3 from "../../assets/img3.png";
 import img4 from "../../assets/img4.png";
+import Main3 from "./Main3/Main3";
+import logo1 from "../../assets/001.png"
+import logo2 from "../../assets/002.png"
+import logo3 from "../../assets/003.png"
 
 function Home() {
   return (
@@ -40,10 +44,16 @@ function Home() {
         color="black"
       />
       <div className="Main2-img-div">
-        <Main2 img={img1} sectitle="The Mountains" by="by John Appleseed" />
-        <Main2 img={img2} sectitle="Sunset Cityscapes" by="by Benjamin Cruz" />
-        <Main2 img={img3} sectitle="18 Days Voyage" by="by Alexei Borodin" />
-        <Main2 img={img4} sectitle="Architecturals" by="by Samantha Brooke" />
+        <Main2 img={img1} secTitle="The Mountains" by="by John Appleseed" />
+        <Main2 img={img2} secTitle="Sunset Cityscapes" by="by Benjamin Cruz" />
+        <Main2 img={img3} secTitle="18 Days Voyage" by="by Alexei Borodin" />
+        <Main2 img={img4} secTitle="Architecturals" by="by Samantha Brooke" />
+      </div>
+
+      <div className="all-logos">
+        <Main3 logo={logo1} thrTitle="100% Responsive" para="No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."/>
+        <Main3 logo={logo2} thrTitle="No Photo Upload Limit" para="Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."/>
+        <Main3 logo={logo3} thrTitle="Available to Embed" para="Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "/>
       </div>
     </>
   );

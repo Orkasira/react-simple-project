@@ -7,7 +7,7 @@ function Main2(props) {
       <section className="sec2">
         <div style={{ backgroundImage: `url(${props.img})` }}>
           <div className="text">
-            <h2>{props.sectitle}</h2>
+            <h2>{props.secTitle}</h2>
             <p>{props.by}</p>
             <div className="line"></div>
             <div className="arrow">

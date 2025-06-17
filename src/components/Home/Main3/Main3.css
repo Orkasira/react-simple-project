@@ -1,0 +1,15 @@
+.all-logos {
+  display: flex;
+  padding: 120px 250px;
+  justify-content: space-between;
+}
+
+.logo-div {
+  width: 350px;
+  height: 236px;
+  text-align: center;
+}
+.logo-div h2 {
+  margin-top: 48px;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=Main3.css.map */
