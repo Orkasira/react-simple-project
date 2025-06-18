@@ -6,6 +6,7 @@ import photo from "./assets/Group.svg";
 import { Route, Routes } from "react-router";
 import Stories from "./components/Stories/Stories";
 import Home from "./components/Home/Home";
+import Footer from "./components/Home/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Features" element={<Features />} />
         <Route path="/Pricing" element={<Pricing />} />
       </Routes>
+      <Footer />
     </>
   );
 }

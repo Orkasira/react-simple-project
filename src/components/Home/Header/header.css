@@ -20,6 +20,11 @@ header nav .nav-bar {
   color: black;
   font-size: 12px;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+header nav .nav-bar:hover {
+  opacity: 30%;
 }
 header button {
   font-family: sans-serif;
@@ -27,4 +32,10 @@ header button {
   color: white;
   border: none;
   padding: 12px 24px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+header button:hover {
+  background-color: #dfdfdf;
+  color: black;
 }/*# sourceMappingURL=header.css.map */

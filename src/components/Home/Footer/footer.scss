@@ -1,0 +1,97 @@
+.footer-container {
+  background-color: black;
+  padding: 64px 171px;
+  height: 250px;
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .logos {
+      display: flex;
+      gap: 14px;
+      .fb {
+        width: 20px;
+        height: 20px;
+        background-image: url("../../../assets/fb.png");
+        transition: 0.4s;
+      }
+      .fb:hover {
+        background-image: url("../../../assets/colorfb.svg");
+      }
+      .yt {
+        width: 20px;
+        height: 20px;
+        background-image: url("../../../assets/yt.png");
+        transition: 0.4s;
+      }
+      .yt:hover {
+        background-image: url("../../../assets/coloryt.svg");
+      }
+      .tw {
+        width: 20px;
+        height: 17px;
+        background-image: url("../../../assets/tw.png");
+        transition: 0.4s;
+      }
+      .tw:hover {
+        background-image: url("../../../assets/colortw.svg");
+      }
+      .pint {
+        width: 20px;
+        height: 20px;
+        background-image: url("../../../assets/pint.png");
+        transition: 0.4s;
+      }
+      .pint:hover {
+        background-image: url("../../../assets/colorpint.svg");
+      }
+      .ig {
+        width: 20px;
+        height: 20px;
+        background-image: url("../../../assets/ig.png");
+        transition: 0.4s;
+      }
+      .ig:hover {
+        background-image: url("../../../assets/colorig.svg");
+      }
+    }
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 110px;
+    .foot-nav {
+      text-decoration: none;
+      color: white;
+      letter-spacing: 2px;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    .foot-nav:hover {
+      opacity: 30%;
+    }
+  }
+  .foot-right {
+    position: relative;
+    left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .foot-inv {
+      display: flex;
+      gap: 20px;
+      .arrow {
+        color: white;
+        cursor: pointer;
+      }
+      .arrow:hover {
+        text-decoration: underline;
+      }
+    }
+    .copy {
+      color: white;
+      opacity: 50%;
+    }
+  }
+}

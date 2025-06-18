@@ -35,6 +35,10 @@ section .text-area .link-content {
 }
 section .text-area .link-content .link {
   color: white;
+  cursor: pointer;
+}
+section .text-area .link-content .link:hover {
+  text-decoration: underline;
 }
 section .back-img {
   height: 703px;

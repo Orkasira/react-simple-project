@@ -2,7 +2,9 @@
   display: flex;
   width: 100%;
   font-family: sans-serif;
-  overflow: hidden;
+}
+.Main2-img-div .sec2 {
+  transition: 0.5s;
 }
 .Main2-img-div .sec2 div {
   width: 480px;
@@ -15,7 +17,7 @@
 }
 .Main2-img-div .sec2 .text {
   margin: 0 50px;
-  margin-top: 450px;
+  padding-top: 450px;
   color: white;
 }
 .Main2-img-div .sec2 .text p {
@@ -38,4 +40,23 @@
 .Main2-img-div .sec2 .arrow img {
   width: 42px;
   height: 14px;
+}
+.Main2-img-div .sec2:hover {
+  position: relative;
+  transform: translateY(-10%);
+}
+.Main2-img-div .sec2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+  transition: transform 0.5s ease;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+.Main2-img-div .sec2:hover::after {
+  transform: scaleX(1);
 }/*# sourceMappingURL=Main2.css.map */

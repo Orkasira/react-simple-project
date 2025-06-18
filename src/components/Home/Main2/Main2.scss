@@ -2,8 +2,8 @@
   display: flex;
   width: 100%;
   font-family: sans-serif;
-  overflow: hidden;
   .sec2 {
+    transition: 0.5s;
     div {
       width: 480px;
       height: 600px;
@@ -14,7 +14,7 @@
     }
     .text {
       margin: 0 50px;
-      margin-top: 450px;
+      padding-top: 450px;
       color: white;
       p {
         margin-top: 5px;
@@ -38,5 +38,24 @@
         height: 14px;
       }
     }
+  }
+  .sec2:hover {
+    position: relative;
+    transform: translateY(-10%);
+  }
+  .sec2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+    transition: transform 0.5s ease;
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+  .sec2:hover::after {
+    transform: scaleX(1);
   }
 }

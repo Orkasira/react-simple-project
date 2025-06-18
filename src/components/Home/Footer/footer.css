@@ -1,0 +1,97 @@
+.footer-container {
+  background-color: black;
+  padding: 64px 171px;
+  height: 250px;
+}
+.footer-container .footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-container .footer-content .logos {
+  display: flex;
+  gap: 14px;
+}
+.footer-container .footer-content .logos .fb {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../assets/fb.png");
+  transition: 0.4s;
+}
+.footer-container .footer-content .logos .fb:hover {
+  background-image: url("../../../assets/colorfb.svg");
+}
+.footer-container .footer-content .logos .yt {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../assets/yt.png");
+  transition: 0.4s;
+}
+.footer-container .footer-content .logos .yt:hover {
+  background-image: url("../../../assets/coloryt.svg");
+}
+.footer-container .footer-content .logos .tw {
+  width: 20px;
+  height: 17px;
+  background-image: url("../../../assets/tw.png");
+  transition: 0.4s;
+}
+.footer-container .footer-content .logos .tw:hover {
+  background-image: url("../../../assets/colortw.svg");
+}
+.footer-container .footer-content .logos .pint {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../assets/pint.png");
+  transition: 0.4s;
+}
+.footer-container .footer-content .logos .pint:hover {
+  background-image: url("../../../assets/colorpint.svg");
+}
+.footer-container .footer-content .logos .ig {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../assets/ig.png");
+  transition: 0.4s;
+}
+.footer-container .footer-content .logos .ig:hover {
+  background-image: url("../../../assets/colorig.svg");
+}
+.footer-container .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 110px;
+}
+.footer-container .links .foot-nav {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.footer-container .links .foot-nav:hover {
+  opacity: 30%;
+}
+.footer-container .foot-right {
+  position: relative;
+  left: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-container .foot-right .foot-inv {
+  display: flex;
+  gap: 20px;
+}
+.footer-container .foot-right .foot-inv .arrow {
+  color: white;
+  cursor: pointer;
+}
+.footer-container .foot-right .foot-inv .arrow:hover {
+  text-decoration: underline;
+}
+.footer-container .foot-right .copy {
+  color: white;
+  opacity: 50%;
+}/*# sourceMappingURL=footer.css.map */
