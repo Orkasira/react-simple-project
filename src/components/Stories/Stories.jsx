@@ -1,7 +1,11 @@
+import Title from "./Title/Title";
+
+
+
 function Stories(){
     return (
         <>
-            <h1>Stories</h1>
+            <Title/>
         </>
     )
 }
