@@ -1,13 +1,13 @@
-.Main2-img-div {
+.four {
   display: flex;
   width: 100%;
   font-family: sans-serif;
 }
-.Main2-img-div .sec2 {
+.four .card-container {
   transition: 0.5s;
   width: 25%;
 }
-.Main2-img-div .sec2 div {
+.four .card-container div {
   width: 100%;
   height: 600px;
   background-size: cover;
@@ -16,26 +16,30 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-.Main2-img-div .sec2 .text {
-  padding-top: 450px;
+.four .card-container .card-text {
+  padding-top: 410px;
   color: white;
 }
-.Main2-img-div .sec2 .text h2 {
+.four .card-container .card-text .date {
+  margin-left: 50px;
+  margin-bottom: 4px;
+}
+.four .card-container .card-text h2 {
   margin-left: 50px;
 }
-.Main2-img-div .sec2 .text p {
+.four .card-container .card-text p {
   margin-left: 50px;
   margin-top: 5px;
   margin-bottom: 16px;
 }
-.Main2-img-div .sec2 .text .line {
+.four .card-container .card-text .card-line {
   margin-left: 50px;
   width: 380px;
   height: 1px;
   background-color: white;
   margin-bottom: 20px;
 }
-.Main2-img-div .sec2 .arrow {
+.four .card-container .card-arrow {
   margin-left: 50px;
   width: 88%;
   height: 31px;
@@ -43,15 +47,15 @@
   align-items: center;
   gap: 225px;
 }
-.Main2-img-div .sec2 .arrow img {
+.four .card-container .card-arrow img {
   width: 42px;
   height: 14px;
 }
-.Main2-img-div .sec2:hover {
+.four .card-container:hover {
   position: relative;
   transform: translateY(-10%);
 }
-.Main2-img-div .sec2::after {
+.four .card-container::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -63,6 +67,6 @@
   transform-origin: left;
   transform: scaleX(0);
 }
-.Main2-img-div .sec2:hover::after {
+.four .card-container:hover::after {
   transform: scaleX(1);
-}/*# sourceMappingURL=Main2.css.map */
+}/*# sourceMappingURL=Card.css.map */

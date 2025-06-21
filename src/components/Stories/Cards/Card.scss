@@ -1,8 +1,8 @@
-.Main2-img-div {
+.four {
   display: flex;
   width: 100%;
   font-family: sans-serif;
-  .sec2 {
+  .card-container {
     transition: 0.5s;
     width: 25%;
     div {
@@ -13,9 +13,13 @@
       background-position: center;
       object-fit: cover;
     }
-    .text {
-      padding-top: 450px;
+    .card-text {
+      padding-top: 410px;
       color: white;
+      .date {
+        margin-left: 50px;
+        margin-bottom: 4px;
+      }
       h2 {
         margin-left: 50px;
       }
@@ -24,7 +28,7 @@
         margin-top: 5px;
         margin-bottom: 16px;
       }
-      .line {
+      .card-line {
         margin-left: 50px;
         width: 380px;
         height: 1px;
@@ -32,7 +36,7 @@
         margin-bottom: 20px;
       }
     }
-    .arrow {
+    .card-arrow {
       margin-left: 50px;
       width: 88%;
       height: 31px;
@@ -45,11 +49,11 @@
       }
     }
   }
-  .sec2:hover {
+  .card-container:hover {
     position: relative;
     transform: translateY(-10%);
   }
-  .sec2::after {
+  .card-container::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -61,7 +65,7 @@
     transform-origin: left;
     transform: scaleX(0);
   }
-  .sec2:hover::after {
+  .card-container:hover::after {
     transform: scaleX(1);
   }
 }

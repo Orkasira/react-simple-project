@@ -1,16 +1,17 @@
-import "./Main2.css";
+import "./Card.css";
 import arr from "../../../assets/arrow.png";
 
-function Main2(props) {
+function Card(props) {
   return (
     <>
-      <section className="sec2">
+      <section className="card-container">
         <div style={{ backgroundImage: `url(${props.img})` }}>
-          <div className="text">
+          <div className="card-text">
+            <p className="date">{props.date}</p>
             <h2>{props.secTitle}</h2>
             <p>{props.by}</p>
-            <div className="line"></div>
-            <div className="arrow">
+            <div className="card-line"></div>
+            <div className="card-arrow">
               <h3>READ STORY</h3>
               <img src={arr} />
             </div>
@@ -21,4 +22,4 @@ function Main2(props) {
   );
 }
 
-export default Main2;
+export default Card;
