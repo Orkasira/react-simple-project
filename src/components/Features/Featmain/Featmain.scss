@@ -1,0 +1,33 @@
+.featmain {
+  height: 700px;
+  width: 100%;
+  .featmain-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 40%;
+    .featmain-text {
+      width: 397px;
+      margin: 0 112px;
+      h1 {
+        color: white;
+        width: 397px;
+        font-size: 40px;
+        letter-spacing: 5px;
+        line-height: 48px;
+        margin-bottom: 25px;
+      }
+      p {
+        color: white;
+        opacity: 60%;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+      }
+    }
+  }
+  .featmain-img {
+    width: 60%;
+  }
+}

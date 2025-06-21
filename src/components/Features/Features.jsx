@@ -1,9 +1,11 @@
-function Features(){
-    return (
-        <>
-            <h1>Features</h1>
-        </>
-    )
+import Featmain from "./Featmain/Featmain";
+
+function Features() {
+  return (
+    <>
+      <Featmain />
+    </>
+  );
 }
 
 export default Features;
