@@ -1,10 +1,5 @@
 import "./footer.css";
 import logo from "../../../assets/whitelogo.png";
-import fb from "../../../assets/fb.png";
-import ig from "../../../assets/ig.png";
-import pint from "../../../assets/pint.png";
-import tw from "../../../assets/tw.png";
-import yt from "../../../assets/yt.png";
 import { Link } from "react-router-dom";
 import arrow from "../../../assets/arrow.png";
 
@@ -49,9 +44,6 @@ function Footer() {
           </Link>
           <Link to="/Features" className="foot-nav">
             FEATURES
-          </Link>
-          <Link to="/Pricing" className="foot-nav">
-            PRICING
           </Link>
         </div>
         <div className="foot-right">

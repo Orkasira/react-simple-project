@@ -1,19 +1,19 @@
-.featmain {
+.featMain {
   height: 700px;
   width: 100%;
 }
-.featmain .featmain-back {
+.featMain .featMain-back {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: black;
   width: 40%;
 }
-.featmain .featmain-back .featmain-text {
+.featMain .featMain-back .featMain-text {
   width: 397px;
   margin: 0 112px;
 }
-.featmain .featmain-back .featmain-text h1 {
+.featMain .featMain-back .featMain-text h1 {
   color: white;
   width: 397px;
   font-size: 40px;
@@ -21,13 +21,13 @@
   line-height: 48px;
   margin-bottom: 25px;
 }
-.featmain .featmain-back .featmain-text p {
+.featMain .featMain-back .featMain-text p {
   color: white;
   opacity: 60%;
   font-size: 15px;
   line-height: 25px;
   font-weight: 400;
 }
-.featmain .featmain-img {
+.featMain .featMain-img {
   width: 60%;
-}/*# sourceMappingURL=Featmain.css.map */
+}/*# sourceMappingURL=FeatMain.css.map */

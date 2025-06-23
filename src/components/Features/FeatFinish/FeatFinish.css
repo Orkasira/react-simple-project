@@ -1,0 +1,27 @@
+.finish {
+  width: 100%;
+  height: 280px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../../assets/finish.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.finish .finish-text {
+  margin: 68px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.finish .finish-text h2 {
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 5px;
+  width: 400px;
+  text-transform: uppercase;
+}
+.finish .finish-text p {
+  color: white;
+}/*# sourceMappingURL=FeatFinish.css.map */

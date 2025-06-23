@@ -1,13 +1,13 @@
-.featmain {
+.featMain {
   height: 700px;
   width: 100%;
-  .featmain-back {
+  .featMain-back {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: black;
     width: 40%;
-    .featmain-text {
+    .featMain-text {
       width: 397px;
       margin: 0 112px;
       h1 {
@@ -27,7 +27,7 @@
       }
     }
   }
-  .featmain-img {
+  .featMain-img {
     width: 60%;
   }
 }

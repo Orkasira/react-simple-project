@@ -9,7 +9,6 @@ function Header(props){
                 <nav>
                     <Link to="/Stories" className="nav-bar">STORIES</Link>
                     <Link to="/Features" className="nav-bar">FEATURES</Link>
-                    <Link to="/Pricing" className="nav-bar">Pricing</Link>
                 </nav>
                 <button>GET AN INVITE</button>
             </header>

@@ -1,0 +1,25 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  width: 1110px;
+  gap: 104px;
+  padding: 160px 165px;
+}
+.all .first-logos {
+  display: flex;
+  justify-content: space-between;
+}
+.all .second-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-div {
+  width: 350px;
+  height: 236px;
+  text-align: center;
+}
+.logo-div h2 {
+  margin-top: 48px;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=FeatLast.css.map */
